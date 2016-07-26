@@ -2174,6 +2174,9 @@
    if(details_inj !== undefined){
   sessionStorage.setItem("details_inj",JSON.stringify(details_inj));
   }
+          if(reject_repa !== undefined ){
+    sessionStorage.setItem("reject_repa",JSON.stringify(reject_repa)); 
+  }
   if(details_decea !== undefined){
   sessionStorage.setItem("details_decea",JSON.stringify(details_decea));
   }
@@ -2213,6 +2216,9 @@
              if(verification_maste !== undefined){
   sessionStorage.setItem("verification_maste",JSON.stringify(verification_maste));
              }
+                     if(reject_repa !== undefined ){
+    sessionStorage.setItem("reject_repa",JSON.stringify(reject_repa)); 
+  }
   //alert('currentob driver d succes');
   sessionStorage.setItem("driver_details_d",JSON.stringify(driver_details_d));
   sessionStorage.setItem("currentobj_inpro",JSON.stringify(super_inpro_obj));
@@ -2226,6 +2232,9 @@
           if(verification_maste !== undefined){
             sessionStorage.setItem("verification_maste",JSON.stringify(verification_maste));
           }
+                  if(reject_repa !== undefined ){
+    sessionStorage.setItem("reject_repa",JSON.stringify(reject_repa)); 
+  }
   sessionStorage.setItem("driver_details_o",JSON.stringify(driver_details_o));
   sessionStorage.setItem("currentobj_inpro",JSON.stringify(super_inpro_obj));
   $.mobile.changePage($('#pagedesign'), { transition: "none", changeHash: true, reverse: false });
@@ -2238,6 +2247,9 @@
                   if(verification_maste !== undefined){
   sessionStorage.setItem("verification_maste",JSON.stringify(verification_maste));
   }
+          if(reject_repa !== undefined ){
+    sessionStorage.setItem("reject_repa",JSON.stringify(reject_repa)); 
+  }
   //alert('currentob claimant succes');
   sessionStorage.setItem("fir_detai",JSON.stringify(fir_detai));
   sessionStorage.setItem("currentobj_inpro",JSON.stringify(super_inpro_obj));
@@ -2249,6 +2261,9 @@
   if(qualification_id == '95' ){
         if(accident_details_a !== undefined){
   sessionStorage.setItem("accident_details_a",JSON.stringify(accident_details_a));
+  }
+          if(reject_repa !== undefined ){
+    sessionStorage.setItem("reject_repa",JSON.stringify(reject_repa)); 
   }
    if(vehicle_details_a !== undefined){
           sessionStorage.setItem("vehicle_details_a",JSON.stringify(vehicle_details_a));
@@ -2267,6 +2282,9 @@
                   if(verification_maste !== undefined){
                     //alert('verification_maste');
   sessionStorage.setItem("verification_maste",JSON.stringify(verification_maste));
+  }
+          if(reject_repa !== undefined ){
+    sessionStorage.setItem("reject_repa",JSON.stringify(reject_repa)); 
   }
                      if(policy_detaiil !== undefined){
                       //alert('policy_detaiil');
